@@ -1,5 +1,5 @@
 # BSc Seminar 2019: Survey of existing smart contract platforms
-This is a repo to keep track of research progress. The way this repo is set up is as follows.
+This is a repo to keep track of research progress.
 
 ## Quick overview
 [docs/paper_collection.md](docs/paper_collection.md) holds the collective list of papers our group has read.  

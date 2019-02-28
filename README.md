@@ -1,7 +1,5 @@
 # bsc-smart-contract-research
-## BSc Seminar 2019: Survey of existing smart contract platforms
-
-----
+### BSc Seminar 2019: Survey of existing smart contract platforms
 
 This is a repo to keep track of research progress. The way this repo is set up is as follows.
 

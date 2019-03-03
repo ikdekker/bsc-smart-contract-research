@@ -6,7 +6,7 @@
 - [ ] Atzei, Nicola, Massimo Bartoletti, and Tiziana Cimoli. "A survey of attacks on ethereum smart contracts (sok)." International Conference on Principles of Security and Trust. Springer, Berlin, Heidelberg, 2017.
  
 ### Relevant papers found
- We might have to update how we list these.
+ We might have to update how we list these [issue](https://github.com/ikdekker/bsc-smart-contract-research/issues/3).
 - [initial-research] [Casper (Ethereum) paper](https://arxiv.org/pdf/1710.09437.pdf)
 - [initial-research] [stellar (white?) paper](https://www.stellar.org/papers/stellar-consensus-protocol.pdf)
 - [initial-research] [Codius white paper](https://github.com/codius/codius-wiki/wiki/White-Paper)

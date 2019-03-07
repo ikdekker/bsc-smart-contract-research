@@ -14,6 +14,9 @@
 - [Blockchains and Smart Contracts for the Internet of Things](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7467408)
 - [Kosba, Ahmed, et al. "Hawk: The blockchain model of cryptography and privacy-preserving smart contracts." 2016 IEEE symposium on security and privacy (SP). IEEE, 2016.](https://users.soe.ucsc.edu/~owen/courses/cmps223/papers/hawk.pdf)
 
+- [Scalable Blockchain Based Smart Contract
+Execution](https://ieeexplore-ieee-org.tudelft.idm.oclc.org/stamp/stamp.jsp?tp=&arnumber=8368383)
+
 ### Smart contracts applications:
 
 - https://restartenergy.io/Restart_Energy_Whitepaper.pdf (energy trading)

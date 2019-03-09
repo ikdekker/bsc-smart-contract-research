@@ -1,0 +1,81 @@
+## Meeting minutes - 8 march
+
+
+### Progress since previous meeting
+
+Since the previous meeting the student have read and gathers some more papers.
+Mostly on the applications of smart contracts. A IEEE two-column style paper was
+set up. As well as a GitHub repo where progress is kept and papers are
+collected.
+
+### Research question
+ 
+There was a choice between technical or conceptual research question.
+
+Technical would be interesting, as we can create our own piece of software ontop
+of Trustchain. This would also benefit our grade.
+
+If we choose to implement:  
+Build on TrustChain -> create a transaction people can execute with python code
+uploaded to it and save the statechange on the chain. This would be a "new"
+implementation, parallelized smart contract.
+
+**Current research question**  
+How can we trustfully execute code in a decentralized environment?
+
+This research question has been decided on because we can partially combine the
+results with the implementation mentioned before.
+
+*Problem statement*: running programs from an untrusted source could mess up
+your system.
+
+### Other possible research directions
+
+*Scalability was advised against, has been done last year.
+
+**MSc student (Michel) master thesis: dApps**  
+He is working on distributed applications (dApps) and creating a platform to
+download/deploy packages in a distributed way. There is no ecosystem for dApps
+and distributed package management. A possible research direction would be a
+survey of the existing ecosystems and surrounding areas. This idea was mostly
+dismissed since it has little blockchain/smart contract relevance.
+
+Michel also guides a group of honour students. 
+They research decentralized system: Agreements for legalized signatures.
+Onderteken.nl is service to upload a document and sign it with a personal
+signature. Ensuring that some contract is signed, this is trustable since the
+signing is non-retractable. The goal is to remove the single point of trust, eg
+a notary and eventually replace notaries with digital systems. It is hard to
+create a legal system digital that is accepted.
+
+They are also trying to do this without global consensus, which is a challenge
+since the whole network should be aware of document states.
+
+**MSc student (Jetse): scaling and voting system**  
+He is working on a consensus mechanism, where witnesses are chosen. It is
+possible to calculate the probablility of malicious entity. There are very small
+chances for malicious nodes to "hack" the system.
+
+
+### Todo:
+
+Read about new execution environments (and how it applies on trustchain).
+
+Check out some interesting implementations:
+
+- Docker is a good example of contained code execution.
+- HyperLedger vs Ethereum, how are programs verified.
+- Intel SGX
+
+### Deadlines / goals:
+
+- create sub-questions and assign them (today)
+- we will write ~2 pages before next friday
+- we will complete our draft before two weeks from now (22/4).
+- [optional] attempt to set up the IPV8 environment (Linux environment is advised)
+
+
+### Useful for the students:
+
+- [IPV8](https://github.com/Tribler/py-ipv8) - Link a TrustChain project, which we could set up as preparation for implementing the smart contract on TC. 
+- [TU WRITE course](https://brightspace.tudelft.nl//d2l/home/63835) - Good and complete guides and information on writing all parts of the paper.

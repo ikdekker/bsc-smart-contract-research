@@ -11,10 +11,10 @@ Here are some more terms for the concept map.
 
 ```
     TEE -> SEE
-	-> Andix OS
-	-> TLK(NVidia)
-        -> TLG(Microsoft)
-	-> SafeG(Nagoya)
+	    -> Andix OS
+		-> TLK(NVidia)
+		-> TLG(Microsoft)
+		-> SafeG(Nagoya)
 ```
 
 ## 10 mar (TEEs)
@@ -45,15 +45,16 @@ Medium: introduction to privacy preserving sc
 concept map expansions:
 
 ```
-    secure computing -> secure hardware(TEE)	-> Intel SGX
-						-> Sanctum
-						-> Nokia ObC
+    secure computing -> secure hardware(TEE)-> Intel SGX
+											-> Sanctum
+											-> Nokia ObC
                      -> secure code
-    				 		-> secure environments -> hypervisors
+    				 -> secure environments -> hypervisors
 	                                        -> AMD SEV
-		     -> integrity
-	       	     -> confidentiality
+					 -> integrity
+					 -> confidentiality
 ```
+
 
 [Microsoft paper on SDL](https://www.acsac.org/2004/papers/Lipner.pdf) 
 

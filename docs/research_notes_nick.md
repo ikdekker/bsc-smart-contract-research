@@ -1,4 +1,137 @@
 
+## 11 mar (more TEEs)
+
+more from [this]((https://hal.archives-ouvertes.fr/hal-01246364/document)) paper.
+It tries to establish some definition for TEE, which has not been done properly/consistently yet.
+
+Groups like Open Mobile Terminal Platform(OMTP) and GlobalPlatform have attempted to define the term,
+but there is no official standard.
+
+Here are some more terms for the concept map.
+
+```
+    TEE -> SEE
+	    -> Andix OS
+		-> TLK(NVidia)
+		-> TLG(Microsoft)
+		-> SafeG(Nagoya)
+```
+
+## 10 mar (TEEs)
+
+[This paper](https://core.ac.uk/download/pdf/81622719.pdf) might be helpful for defining trust.
+
+[Trustee](https://eprint.iacr.org/2019/102.pdf) - vicrey auction on eth
+[platforms sc](https://www.cointelligence.com/content/smart-contract-platforms-guide/)
+https://blog.wavesplatform.com/waves-smart-contracts-what-to-expect-and-when-489563a95ca3
+[Sanctum](https://eprint.iacr.org/2015/564.pdf) decouples HW protection from trust. [(indepth talk)](https://www.youtube.com/watch?v=K3EN0_g6yL4)
+
+### Intel SGX, sMPC & ZKP
+
+sgx seems to be unsafe; [source](https://eprint.iacr.org/2015/564.pdf).
+
+[nokia ObC](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.5513&rep=rep1&type=pdf)
+
+Google scolar search : trusted execution environment  
+[TEEs paper](https://hal.archives-ouvertes.fr/hal-01246364/	document)
+
+V3c trustworthy data analytics
+Sgx scholar
+Terms; trustworthy cloud computing > Towards a Trust Management System for Cloud Computing
+Sla?
+Homomorphic encryption
+Medium: introduction to privacy preserving sc
+
+concept map expansions:
+
+```
+    secure computing -> secure hardware(TEE)-> Intel SGX
+											-> Sanctum
+											-> Nokia ObC
+                     -> secure code
+    				 -> secure environments -> hypervisors
+	                                        -> AMD SEV
+					 -> integrity
+					 -> confidentiality
+```
+
+[Microsoft paper on SDL](https://www.acsac.org/2004/papers/Lipner.pdf) 
+
+[blockchain trustworthy privacy](http://homepage.divms.uiowa.edu/~ghosh/blockchain.pdf).
+
+A solution for storing (encrypted) data on blockchains. 
+Could use Multi-party computation (MPC) to evaluate functions, after using Shamir's secret sharing. See _Ch V sec A_
+
+[1]: https://cloudsecurityalliance.org/star/#_overview
+
+[cc](https://s3.amazonaws.com/academia.edu.documents/39124848/0c960532bfc69d3409000000.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1552232237&Signature=vnRzFsEBhuswJWR5zk3bS%2Fbmtbw%3D&response-content-disposition=inline%3B%20filename%3DTowards_a_Trust_Management_System_for_Cl.pdf)
+shows several security aspects of trust in cloud computing. They present a model which lets cloud providers offer their services
+with clearer way of communicating their trustworthyness than an SLA. Probably handy to use for writing a bit about "what is trust".
+
+[cc2](https://www.usenix.org/legacy/event/hotcloud09/tech/full_papers/santos.pdf)
+
+Types of trusted computing:
+
+Safe 'area' of the CPU, hardware encrypted. (intel sgx).
+[some use cases download link](https://www.mdpi.com/2073-8994/9/8/164/pdf)
+
+cloud - safe execution, but trusting the cloud provider:
+
+- reputation based trust. used in p2p networks & e-commerce
+- SLA verification based trust "A major issue is that SLA focuses on the “visible” elements of cloud service performance, and does not address
+“invisible” elements such as security and privacy." [source](https://core.ac.uk/download/pdf/81622719.pdf)
+- cloud transparency. [CSA](https://cloudsecurityalliance.org/star/#_overview) has the STAR program. seen in [[1]]
+
+The trust on the cloud provider may be relinquished when homomorphic encryption can be used with data manipulation.
+
+[good keypoints for building a TEE - keystone project](https://keystone-enclave.org/)
+
+[implementation of a blockchain system (not very relevant to research)](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1145&context=ecis2016_rp)
+
+[the keep](https://backend.keep.network/whitepaper)  
+[enigma](https://enigma.co/protocol/TechnicalIntroduction.html)
+
+------
+
+## 7 mar (paper and oracles)
+
+[1] Bartoletti, Massimo, and Livio Pompianu. "An empirical analysis of smart
+contracts: platforms, applications, and design patterns." International
+Conference on Financial Cryptography and Data Security. Springer, Cham, 2017.
+
+There were 811 contracts samples of Eth, and 23 of Bitcoin on 1/1/2017. Most
+contracts are financial, also a substantial amount are notary (mostly Ethereum).
+Then there are some games, libraries(for use in other contracts math/string OPs)
+and wallets. 
+
+[1] says that the most common oracle is [Oraclize](https://provable.xyz/). Oracles
+are interfaces between contracts and the outside.
+
+Since contracts must be deterministic, the only ways to get a random value in a
+contract are through oracles, or locally on the user's machine.
+
+----
+
+Survey of attacks on eth. smart contracts:
+
+King of the Ether throne, Ponzi schemes..
+
+----
+
+### Introduction
+
+ - list our contributions and the reasons our contributions are important
+ - hook the reader with interesting content (anecdote?) 
+
+
+problem: Are smart contracts important? Problem with smart contracts? Are they just now becoming (more)
+relevant and why?  
+aim: What will this change in blockchain applications? How do we shine new light on
+smart contracts and why is this useful?  
+structure: see outline on drive..
+
+
+
 ## 5 mar (how to write a paper & reseach)
 
 We might be able to create a [graphical abstract](https://www.elsevier.com/authors/journal-authors/graphical-abstract)
@@ -117,7 +250,7 @@ trust as a producer.
 
 *About*
 
-* Smart Oracle
+* Smart Oracle (Oracles are interfaces between contracts and the outside.)
 * 
 
 

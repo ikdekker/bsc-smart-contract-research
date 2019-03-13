@@ -9,3 +9,8 @@ Good guidelines on what to do and what not to do when writing a paper.
 ### Resources relevant to blockchain
 
 - [Ethereum wiki on sharding](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
+
+### TEE
+
+Decentralized Computing with Trusted Execution Environments: Lessons Learned (good for everybody)  
+https://www.youtube.com/watch?v=JOV4m2qnCMo

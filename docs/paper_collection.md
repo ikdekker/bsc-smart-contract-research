@@ -24,3 +24,9 @@ Execution](https://ieeexplore-ieee-org.tudelft.idm.oclc.org/stamp/stamp.jsp?tp=&
 - https://d1zzssn32v8b7a.cloudfront.net/media/spectre_dalp_protocol_SXDT_v1_1.pdf (decentralized autonomous liquidity pool, decentralized dividends)
 - https://0x.org/pdfs/0x_white_paper.pdf (protocol for efficient interoperability between dapps (decentralized apps))
 - https://link.smartcontract.com/whitepaper (oracles that connect smart contracts with real-world data)
+
+
+### TEE 
+
+[Defining TEE consistently](https://hal.archives-ouvertes.fr/hal-01246364/document)
+[good paper about what trust is and more (cloud computing)](https://core.ac.uk/download/pdf/81622719.pdf)

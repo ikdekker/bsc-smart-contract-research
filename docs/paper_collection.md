@@ -28,5 +28,7 @@ Execution](https://ieeexplore-ieee-org.tudelft.idm.oclc.org/stamp/stamp.jsp?tp=&
 
 ### TEE 
 
-[Defining TEE consistently](https://hal.archives-ouvertes.fr/hal-01246364/document)
-[good paper about what trust is and more (cloud computing)](https://core.ac.uk/download/pdf/81622719.pdf)
+- [Defining TEE consistently](https://hal.archives-ouvertes.fr/hal-01246364/document)
+- [good paper about what trust is and more (cloud computing)](https://core.ac.uk/download/pdf/81622719.pdf)
+- Hawk: The Blockchain Model of Cryptography andPrivacy-Preserving Smart Contracts: https://users.soe.ucsc.edu/~owen/courses/cmps223/papers/hawk.pdf
+

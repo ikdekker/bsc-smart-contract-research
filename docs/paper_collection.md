@@ -26,7 +26,8 @@ Execution](https://ieeexplore-ieee-org.tudelft.idm.oclc.org/stamp/stamp.jsp?tp=&
 - https://link.smartcontract.com/whitepaper (oracles that connect smart contracts with real-world data)
 
 
-### TEE 
+### TEE
 
-[Defining TEE consistently](https://hal.archives-ouvertes.fr/hal-01246364/document)
-[good paper about what trust is and more (cloud computing)](https://core.ac.uk/download/pdf/81622719.pdf)
+- [Defining TEE consistently](https://hal.archives-ouvertes.fr/hal-01246364/document)
+- [good paper about what trust is and more (cloud computing)](https://core.ac.uk/download/pdf/81622719.pdf)
+- [transactional privacy in smart contracts](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7546538)

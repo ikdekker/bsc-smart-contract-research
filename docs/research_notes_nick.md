@@ -1,7 +1,20 @@
 
+## 14 mar (writing paper)
+
+vm secure env:
+
+scholar terms: safe code virtual environment [http://llvm.org/pubs/2007-SOSP-SVA.pdf](http://llvm.org/pubs/2007-SOSP-SVA.pdf)
+
+There might be more to write about in my 'existing TEEs' section. However, the
+main bases have been covered.
+
+- I have not delved into the academia and frameworks.
+- there is more to say about smart contracts in TEEs (like '[the keep](https://backend.keep.network/whitepaper)')
+
+
 ## 11 mar (more TEEs)
 
-more from [this]((https://hal.archives-ouvertes.fr/hal-01246364/document)) paper.
+more from [this](https://hal.archives-ouvertes.fr/hal-01246364/document) paper.
 It tries to establish some definition for TEE, which has not been done properly/consistently yet.
 
 Groups like Open Mobile Terminal Platform(OMTP) and GlobalPlatform have attempted to define the term,
@@ -11,19 +24,23 @@ Here are some more terms for the concept map.
 
 ```
     TEE -> SEE
-	    -> Andix OS
-		-> TLK(NVidia)
-		-> TLG(Microsoft)
-		-> SafeG(Nagoya)
+        -> Andix OS
+        -> TLK(NVidia)
+        -> TLG(Microsoft)
+        -> SafeG(Nagoya)
 ```
 
 ## 10 mar (TEEs)
 
+[the keep](https://backend.keep.network/whitepaper)  
+[enigma](https://enigma.co/protocol/TechnicalIntroduction.html)
+
+
 [This paper](https://core.ac.uk/download/pdf/81622719.pdf) might be helpful for defining trust.
 
-[Trustee](https://eprint.iacr.org/2019/102.pdf) - vicrey auction on eth
-[platforms sc](https://www.cointelligence.com/content/smart-contract-platforms-guide/)
-https://blog.wavesplatform.com/waves-smart-contracts-what-to-expect-and-when-489563a95ca3
+[Trustee](https://eprint.iacr.org/2019/102.pdf) - vicrey auction on eth  
+[platforms sc](https://www.cointelligence.com/content/smart-contract-platforms-guide/)  
+https://blog.wavesplatform.com/waves-smart-contracts-what-to-expect-and-when-489563a95ca3  
 [Sanctum](https://eprint.iacr.org/2015/564.pdf) decouples HW protection from trust. [(indepth talk)](https://www.youtube.com/watch?v=K3EN0_g6yL4)
 
 ### Intel SGX, sMPC & ZKP
@@ -33,7 +50,7 @@ sgx seems to be unsafe; [source](https://eprint.iacr.org/2015/564.pdf).
 [nokia ObC](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.5513&rep=rep1&type=pdf)
 
 Google scolar search : trusted execution environment  
-[TEEs paper](https://hal.archives-ouvertes.fr/hal-01246364/	document)
+[TEEs paper](https://hal.archives-ouvertes.fr/hal-01246364/document)
 
 V3c trustworthy data analytics
 Sgx scholar
@@ -46,15 +63,14 @@ concept map expansions:
 
 ```
     secure computing -> secure hardware(TEE)-> Intel SGX
-											-> Sanctum
-											-> Nokia ObC
+                                            -> Sanctum
+                                            -> Nokia ObC
                      -> secure code
-    				 -> secure environments -> hypervisors
-	                                        -> AMD SEV
-					 -> integrity
-					 -> confidentiality
+                     -> secure environments -> hypervisors
+                                            -> AMD SEV
+                     -> integrity
+                     -> confidentiality
 ```
-
 
 [Microsoft paper on SDL](https://www.acsac.org/2004/papers/Lipner.pdf) 
 
@@ -88,9 +104,6 @@ The trust on the cloud provider may be relinquished when homomorphic encryption 
 [good keypoints for building a TEE - keystone project](https://keystone-enclave.org/)
 
 [implementation of a blockchain system (not very relevant to research)](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1145&context=ecis2016_rp)
-
-[the keep](https://backend.keep.network/whitepaper)  
-[enigma](https://enigma.co/protocol/TechnicalIntroduction.html)
 
 ------
 
